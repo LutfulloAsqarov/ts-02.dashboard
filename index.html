@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.min.css" />
+    </head>
+    <body>
+        <div class="admin">
+            <div class="sidebar">
+                <div class="sidebar__title">
+                    <h2>Dashboard</h2>
+                </div>
+                <ul class="sidebar__collection">
+                    <li class="sidebar__item">
+                        <a class="sidebar__link active">
+                            <span>Products</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a class="sidebar__link">
+                            <span> Users</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a class="sidebar__link">
+                            <span>Posts</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a class="sidebar__link">
+                            <span>Contacts</span>
+                        </a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a class="sidebar__link">
+                            <span>Agents</span>
+                        </a>
+                    </li>
+                </ul>
+                <button class="sidebar__btn">Log out</button>
+            </div>
+            <div class="admin__right">
+                <div id="header">
+                    <div class="header container">
+                        <div class="header__top">
+                            <div class="header__bar">
+                                <!-- <RxHamburgerMenu /> -->
+                                icon
+                            </div>
+                            <div class="header__top__right">
+                                <p>Jones Ferdinand</p>
+                                <img
+                                    src="./images/header-imgs/header.png"
+                                    alt="img"
+                                />
+                            </div>
+                        </div>
+                        <div class="header__bottom">
+                            <h2 class="header__bottom__title">Products</h2>
+                            <div class="header__btns">
+                                <button class="header__dots">•••</button>
+                                <button class="header__add">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories container">
+                    <ul class="categories__list"></ul>
+                </div>
+                <div id="products">
+                    <div class="products container">
+                        <table class="products__carts">
+                            <thead>
+                                <tr class="products__carts__head">
+                                    <th>Brand</th>
+                                    <th>Title</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
